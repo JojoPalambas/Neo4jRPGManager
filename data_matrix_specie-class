@@ -1,0 +1,7 @@
+specie-class
+nothing	Human	Ork	Elf	Dwarf
+Warrior	x	x		x
+Ranger	x	x	x
+Archer	x	x	x
+Wizard	x		x	x
+Sorcerer	x		x	x
