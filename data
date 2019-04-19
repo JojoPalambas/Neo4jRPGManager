@@ -1,9 +1,0 @@
-node:specie:Human
-node:specie:Ork
-node:specie:Elf
-node:specie:Dwarf
-node:class:Warrior
-node:class:Ranger
-node:class:Archer
-node:class:Wizard
-node:class:Sorcerer
