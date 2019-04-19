@@ -1,0 +1,107 @@
+node:specie:Humain
+node:specie:Nain
+node:specie:Elfe
+node:specie:Elfe-Nain
+node:specie:Hobbit
+node:specie:Pygmée
+node:specie:Géant
+node:specie:Orc
+node:specie:Demi-Orc
+node:specie:Gebelin
+node:specie:Ogre
+node:specie:Troll
+node:specie:Peau-de-pierre
+node:specie:Changelin
+node:specie:Vampire
+node:specie:Gnoll
+node:specie:Rakshasa
+node:specie:Naga
+node:specie:Kobold
+node:specie:Centaure
+node:specie:Minotaure
+node:specie:Harpie
+node:specie:Djinn
+node:specie:Effrit
+node:generic_specie:Céleste
+node:generic_specie:Démon
+node:generic_specie:Tréant
+node:generic_specie:Élémentaire
+node:generic_specie:Automate
+node:class:Citoyen lambda
+node:class:Fantassin
+node:class:Chevalier
+node:class:Gladiateur
+node:class:Berserk
+node:class:Lutteur
+node:class:Archer
+node:class:Arbalétrier
+node:class:Fusilier
+node:class:Assassin
+node:class:Prestidigitateur
+node:class:Insaisissable
+node:class:Malfrat
+node:class:Duelliste
+node:class:Noble
+node:class:Thérianthrope
+node:class:Médecin
+node:class:Apothicaire
+node:class:Dresseur
+node:class:Chamane
+node:class:Métaphysicien
+node:class:Collectionneur d'âmes
+node:class:Voyant
+node:class:Mage élémentaire
+node:class:Mage météorologique
+node:class:Métamage
+node:class:Télékinésiste
+node:class:Chronomage
+node:class:Druide
+node:class:Mage de guerre
+node:class:Enchanteur
+node:class:Mage runiste
+node:class:Manipulateur d'âmes
+node:class:Fortuniste
+node:class:Mage des sensations
+node:class:Ensorceleur
+node:class:Sorcier de la maladie et de la douleur
+node:class:Sorcier ésotérique
+node:class:Sorcier nécromancien
+node:class:Diplomate
+node:class:Escroc
+node:class:Commerçant
+node:class:Paysan
+node:class:Forgeron
+node:class:Bourreau
+node:class:Ménestrel
+node:class:Contrôleur fiscal
+node:class:Juge de la Mort
+node:class:Neutraliseur
+node:class:Sapeur
+node:class:Fortuniste
+node:class:Mémoriste
+node:class:Alchimiste
+node:class:Moine-combattant Chanka
+node:class:Paladin Blanc
+node:class:Paladin Noir
+node:class:Paladin Brun
+node:class:Paladin Rouge
+node:class:Paladin d'autre religion (custom)
+node:class:PrêtreBlanc
+node:class:PrêtreNoir
+node:class:PrêtreBrun
+node:class:PrêtreRouge
+node:class:Prêtre d'autre religion (custom)
+node:class:Moine combattant Blanc
+node:class:Moine combattant Noir
+node:class:Moine combattant Brun
+node:class:Moine combattant Rouge
+node:class:Moine combattant d'autre religion (custom)
+node:class:Inquisiteur Blanc
+node:class:Inquisiteur Noir
+node:class:Inquisiteur Brun
+node:class:Inquisiteur Rouge
+node:class:Inquisiteur d'autre religion (custom)
+node:generic_class:Paladin
+node:generic_class:Prêtre
+node:generic_class:Moine combattant
+node:generic_class:Inquisiteur
