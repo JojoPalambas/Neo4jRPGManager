@@ -32,7 +32,7 @@ def get_matrix_from_file(filename):
     return ret
 
 
-def interpret_file(driver, filename):
+def interpret_file(filename):
     instructions = get_instructions_from_file(filename)
 
     i = 0
@@ -41,33 +41,33 @@ def interpret_file(driver, filename):
         print("[", int((i / len(instructions) * 100)), "%]", sep="")
         if instr[0] == "node":
             if instr[1] == "specie":
-                nc.create_specie(driver, instr[2])
+                nc.create_specie(instr[2])
             if instr[1] == "generic_specie":
-                nc.create_generic_specie(driver, instr[2])
+                nc.create_generic_specie(instr[2])
             if instr[1] == "specie_modif":
-                nc.create_specie_modif(driver, instr[2])
+                nc.create_specie_modif(instr[2])
             elif instr[1] == "class":
-                nc.create_class(driver, instr[2])
+                nc.create_class(instr[2])
             elif instr[1] == "generic_class":
-                nc.create_generic_class(driver, instr[2])
+                nc.create_generic_class(instr[2])
             elif instr[1] == "biome":
-                nc.create_biome(driver, instr[2])
+                nc.create_biome(instr[2])
         elif instr[0] == "link":
             if instr[1] == "specie-class":
-                nc.link_specie_to_class(driver, instr[2], instr[3])
+                nc.link_specie_to_class(instr[2], instr[3])
             if instr[1] == "specie-generic_specie":
-                nc.link_specie_to_generic_specie(driver, instr[2], instr[3])
+                nc.link_specie_to_generic_specie(instr[2], instr[3])
             if instr[1] == "specie-specie_modif":
-                nc.link_specie_to_specie_modif(driver, instr[2], instr[3])
+                nc.link_specie_to_specie_modif(instr[2], instr[3])
             if instr[1] == "class-generic_class":
-                nc.link_class_to_generic_class(driver, instr[2], instr[3])
+                nc.link_class_to_generic_class(instr[2], instr[3])
             if instr[1] == "specie-biome":
-                nc.link_specie_to_biome(driver, instr[2], instr[3])
+                nc.link_specie_to_biome(instr[2], instr[3])
             if instr[1] == "class-biome":
-                nc.link_class_to_biome(driver, instr[2], instr[3])
+                nc.link_class_to_biome(instr[2], instr[3])
 
 
-def interpret_matrix_file(driver, filename):
+def interpret_matrix_file(filename):
     data = get_matrix_from_file(filename)
 
     type = data[0]
@@ -82,14 +82,14 @@ def interpret_matrix_file(driver, filename):
         line = ll[1]
         for j in range(len(line)):
             if type == "specie-class":
-                nc.link_specie_to_class(driver, species[j], class_name)
+                nc.link_specie_to_class(species[j], class_name)
             if type == "specie-generic_specie":
-                nc.link_specie_to_generic_specie(driver, species[j], class_name)
+                nc.link_specie_to_generic_specie(species[j], class_name)
             if type == "specie-specie_modif":
-                nc.link_specie_to_specie_modif(driver, species[j], class_name)
+                nc.link_specie_to_specie_modif(species[j], class_name)
             if type == "class_generic_class":
-                nc.link_class_to_generic_class(driver, species[j], class_name)
+                nc.link_class_to_generic_class(species[j], class_name)
             elif type == "specie-biome":
-                nc.link_specie_to_biome(driver, species[j], class_name)
+                nc.link_specie_to_biome(species[j], class_name)
             elif type == "class-biome":
-                nc.link_class_to_biome(driver, species[j], class_name)
+                nc.link_class_to_biome(species[j], class_name)
