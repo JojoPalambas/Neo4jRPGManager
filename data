@@ -22,11 +22,17 @@ node:specie:Minotaure
 node:specie:Harpie
 node:specie:Djinn
 node:specie:Effrit
-node:generic_specie:Céleste
-node:generic_specie:Démon
-node:generic_specie:Tréant
-node:generic_specie:Élémentaire
-node:generic_specie:Automate
+node:specie:Céleste
+node:specie:Démon
+node:specie:Tréant
+node:specie:Élémentaire
+node:specie:Automate
+node:specie_modif:Zombie et squelette
+node:specie_modif:Fantôme
+node:specie_modif:Divinité
+node:specie_modif:Damné
+node:specie_modif:Bienheureux
+node:specie_modif:Ombre
 node:class:Citoyen lambda
 node:class:Fantassin
 node:class:Chevalier
@@ -101,6 +107,18 @@ node:class:Inquisiteur Noir
 node:class:Inquisiteur Brun
 node:class:Inquisiteur Rouge
 node:class:Inquisiteur d'autre religion (custom)
+node:class:Guerrier-mage
+node:class:Combattant des ombres
+node:class:Liche
+node:class:Chevalier de la Mort
+node:class:Fantassin démoniaque
+node:class:Mage démoniaque
+node:class:Déphaseur démoniaque
+node:class:Distorseur démoniaque
+node:class:Commandant démoniaque
+node:class:Fantassin céleste
+node:class:Mage céleste
+node:class:Commandant céleste
 node:generic_class:Paladin
 node:generic_class:Prêtre
 node:generic_class:Moine combattant

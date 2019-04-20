@@ -28,6 +28,11 @@ def create_generic_specie(driver, name):
     return res.single()
 
 
+def create_specie_modif(driver, name):
+    res = driver.session().run("CREATE (sm:SpecieModif {name: $name}) RETURN sm", name=name)
+    return res.single()
+
+
 def create_class(driver, name):
     res = driver.session().run("CREATE (c:Class {name: $name}) RETURN c", name=name)
     return res.single()
@@ -46,6 +51,11 @@ def create_biome(driver, name):
 def link_specie_to_class(driver, specie_name, class_name):
     res = driver.session().run("MATCH (s:Specie {name: $specie_name}), (c:Class {name: $class_name})"
                                "CREATE (s)-[r:CAN_BE]->(c) RETURN r", specie_name=specie_name, class_name=class_name)
+
+
+def link_specie_to_specie_modif(driver, specie_name, specie_modif_name):
+    res = driver.session().run("MATCH (s:Specie {name: $specie_name}), (sm:SpecieModif {name: $specie_modif_name})"
+                               "CREATE (s)-[r:CAN_BECOME]->(c) RETURN r", specie_name=specie_name, specie_modif_name=specie_modif_name)
 
 
 def link_specie_to_generic_specie(driver, specie_name, generic_specie_name):
