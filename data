@@ -7,7 +7,7 @@ node:specie:Pygmée
 node:specie:Géant
 node:specie:Orc
 node:specie:Demi-Orc
-node:specie:Gebelin
+node:specie:Gobelin
 node:specie:Ogre
 node:specie:Troll
 node:specie:Peau-de-pierre
@@ -92,10 +92,10 @@ node:class:Paladin Noir
 node:class:Paladin Brun
 node:class:Paladin Rouge
 node:class:Paladin d'autre religion (custom)
-node:class:PrêtreBlanc
-node:class:PrêtreNoir
-node:class:PrêtreBrun
-node:class:PrêtreRouge
+node:class:Prêtre Blanc
+node:class:Prêtre Noir
+node:class:Prêtre Brun
+node:class:Prêtre Rouge
 node:class:Prêtre d'autre religion (custom)
 node:class:Moine combattant Blanc
 node:class:Moine combattant Noir

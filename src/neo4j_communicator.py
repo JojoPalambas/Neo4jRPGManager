@@ -56,6 +56,8 @@ def link_specie_to_class(driver, specie_name, class_name):
 def link_specie_to_specie_modif(driver, specie_name, specie_modif_name):
     res = driver.session().run("MATCH (s:Specie {name: $specie_name}), (sm:SpecieModif {name: $specie_modif_name})"
                                "CREATE (s)-[r:CAN_BECOME]->(c) RETURN r", specie_name=specie_name, specie_modif_name=specie_modif_name)
+    if len(res.values()) > 0:
+        print("+", end="")
 
 
 def link_specie_to_generic_specie(driver, specie_name, generic_specie_name):

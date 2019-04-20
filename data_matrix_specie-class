@@ -1,7 +1,88 @@
 specie-class
-nothing	Human	Ork	Elf	Dwarf
-Warrior	x	x		x
-Ranger	x	x	x
-Archer	x	x	x
-Wizard	x		x	x
-Sorcerer	x		x	x
+	Humain	Nain	Elfe	Elfe-Nain	Hobbit	Pygmée	Géant	Orc	Demi-Orc	Gobelin	Ogre	Troll	Peau-de-pierre	Changelin	Vampire	Gnoll	Rakshasa	Naga	Kobold	Centaure	Minotaure	Harpie	Djinn	Effrit	Céleste	Démon	Tréant	Élémentaire	Automate
+Citoyen lambda	x	x	x	x	x		x	x	x	x	x		x	x	x	x	x	x	x	x	x	x
+Fantassin	x	x	x	x	x	x	x	x	x	x	x	x	x	x		x	x	x	x	x	x	x							x
+Chevalier	x	x	x					x	x		x			x	x		x			x	x
+Gladiateur	x	x		x				x	x	x		x	x	x		x			x		x	x
+Berserk	x	x						x	x							x					x
+Lutteur	x							x	x				x	x			x				x
+Archer	x		x			x		x	x					x			x	x	x	x
+Arbalétrier	x	x						x	x	x				x		x
+Fusilier	x	x							x
+Assassin	x		x			x									x			x
+Prestidigitateur	x
+Insaisissable	x		x			x									x
+Malfrat	x
+Duelliste	x
+Noble	x
+Thérianthrope	x
+Médecin	x
+Apothicaire	x
+Dresseur	x
+Chamane	x
+Métaphysicien	x
+Collectionneur d'âmes	x
+Voyant	x
+Mage élémentaire	x
+Mage météorologique	x
+Métamage	x
+Télékinésiste	x
+Chronomage	x
+Druide	x
+Mage de guerre	x
+Enchanteur	x
+Mage runiste	x
+Manipulateur d'âmes	x
+Fortuniste	x
+Mage des sensations	x
+Ensorceleur	x
+Sorcier de la maladie et de la douleur	x
+Sorcier ésotérique	x
+Sorcier nécromancien	x
+Diplomate	x
+Escroc	x
+Commerçant	x
+Paysan	x
+Forgeron	x
+Bourreau	x
+Ménestrel	x
+Contrôleur fiscal	x
+Juge de la Mort	x
+Neutraliseur	x
+Sapeur	x
+Fortuniste	x
+Mémoriste	x
+Alchimiste	x
+Moine-combattant Chanka	x
+Paladin Blanc	x
+Paladin Noir	x
+Paladin Brun	x
+Paladin Rouge	x
+Paladin d'autre religion (custom)	x
+Prêtre Blanc	x
+Prêtre Noir	x
+Prêtrev Brun	x
+Prêtre Rouge	x
+Prêtre d'autre religion (custom)	x
+Moine combattant Blanc	x
+Moine combattant Noir	x
+Moine combattant Brun	x
+Moine combattant Rouge	x
+Moine combattant d'autre religion (custom)	x
+Inquisiteur Blanc	x
+Inquisiteur Noir	x
+Inquisiteur Brun	x
+Inquisiteur Rouge	x
+Inquisiteur d'autre religion (custom)	x
+Guerrier-mage	x
+Combattant des ombres
+Liche	x
+Chevalier de la Mort	x
+Fantassin démoniaque
+Mage démoniaque
+Déphaseur démoniaque
+Distorseur démoniaque
+Commandant démoniaque
+Fantassin céleste
+Mage céleste
+Commandant céleste
