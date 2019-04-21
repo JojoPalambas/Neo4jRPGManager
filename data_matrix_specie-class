@@ -1,88 +1,87 @@
 specie-class
 	Humain	Nain	Elfe	Elfe-Nain	Hobbit	Pygmée	Géant	Orc	Demi-Orc	Gobelin	Ogre	Troll	Peau-de-pierre	Changelin	Vampire	Gnoll	Rakshasa	Naga	Kobold	Centaure	Minotaure	Harpie	Djinn	Effrit	Céleste	Démon	Tréant	Élémentaire	Automate
 Citoyen lambda	x	x	x	x	x		x	x	x	x	x		x	x	x	x	x	x	x	x	x	x
-Fantassin	x	x	x	x	x	x	x	x	x	x	x	x	x	x		x	x	x	x	x	x	x							x
+Fantassin	x	x	x	x	x	x	x	x	x	x	x	x	x	x		x	x	x	x	x	x	x	x						x
 Chevalier	x	x	x					x	x		x			x	x		x			x	x
 Gladiateur	x	x		x				x	x	x		x	x	x		x			x		x	x
-Berserk	x	x						x	x							x					x
+Berserk	x	x		x				x	x							x					x
 Lutteur	x							x	x				x	x			x				x
-Archer	x		x			x		x	x					x			x	x	x	x
+Archer	x		x			x		x	x					x			x	x	x	x			x
 Arbalétrier	x	x						x	x	x				x		x
 Fusilier	x	x							x
 Assassin	x		x			x									x			x
 Prestidigitateur	x
 Insaisissable	x		x			x									x
-Malfrat	x
-Duelliste	x
-Noble	x
-Thérianthrope	x
-Médecin	x
-Apothicaire	x
-Dresseur	x
-Chamane	x
-Métaphysicien	x
-Collectionneur d'âmes	x
-Voyant	x
-Mage élémentaire	x
-Mage météorologique	x
-Métamage	x
-Télékinésiste	x
-Chronomage	x
-Druide	x
-Mage de guerre	x
-Enchanteur	x
-Mage runiste	x
-Manipulateur d'âmes	x
-Fortuniste	x
-Mage des sensations	x
-Ensorceleur	x
-Sorcier de la maladie et de la douleur	x
-Sorcier ésotérique	x
-Sorcier nécromancien	x
-Diplomate	x
-Escroc	x
-Commerçant	x
-Paysan	x
-Forgeron	x
-Bourreau	x
-Ménestrel	x
-Contrôleur fiscal	x
-Juge de la Mort	x
-Neutraliseur	x
-Sapeur	x
-Fortuniste	x
-Mémoriste	x
-Alchimiste	x
-Moine-combattant Chanka	x
-Paladin Blanc	x
-Paladin Noir	x
-Paladin Brun	x
-Paladin Rouge	x
-Paladin d'autre religion (custom)	x
-Prêtre Blanc	x
-Prêtre Noir	x
-Prêtrev Brun	x
-Prêtre Rouge	x
-Prêtre d'autre religion (custom)	x
-Moine combattant Blanc	x
+Malfrat	x	x			x			x	x	x				x		x			x
+Duelliste	x		x								x			x	x		x	x	x	x	x
+Noble	x	x	x					x			x			x	x		x	x		x
+Thérianthrope	x		x								x			x	x								x
+Médecin	x	x	x		x	x					x			x			x	x	x	x	x		x
+Apothicaire	x	x	x		x						x			x	x		x		x				x
+Dresseur	x	x	x		x			x	x	x	x			x					x
+Chamane	x					x		x								x					x
+Métaphysicien	x	x									x			x	x		x	x	x	x
+Collectionneur d'âmes	x	x									x						x	x
+Voyant	x		x		x	x									x
+Mage élémentaire	x	x	x			x					x				x		x	x					x	x				x
+Mage météorologique	x		x			x					x												x					x
+Métamage	x	x									x				x		x	x					x
+Télékinésiste	x					x					x				x		x	x	x				x	x
+Chronomage	x										x						x	x					x
+Druide	x		x			x																						x
+Mage de guerre	x	x									x							x					x
+Enchanteur	x	x	x			x					x				x		x	x
+Mage runiste	x	x															x	x
+Manipulateur d'âmes	x		x								x				x			x
+Fortuniste	x										x						x						x
+Mage des sensations	x		x								x							x
+Ensorceleur	x		x			x									x			x
+Sorcier de la maladie et de la douleur	x					x									x			x						x
+Sorcier ésotérique	x					x									x			x						x
+Sorcier nécromancien	x					x					x				x			x						x
+Diplomate	x	x	x								x			x	x		x	x	x	x
+Escroc	x	x								x	x			x		x			x
+Commerçant	x	x	x		x			x	x	x	x			x			x		x	x	x
+Paysan	x	x	x	x	x		x	x	x	x				x					x	x	x
+Forgeron	x	x			x			x	x	x				x			x		x		x
+Bourreau	x			x				x	x	x	x			x	x	x	x			x	x
+Ménestrel	x	x			x					x				x					x										x
+Contrôleur fiscal	x	x	x		x			x	x	x	x			x	x		x	x	x	x	x								x
+Juge de la Mort	x	x	x					x	x		x		x	x	x		x	x	x	x	x			x
+Neutraliseur	x		x								x
+Sapeur	x	x						x	x				x			x	x				x
+Mémoriste	x		x								x				x			x
+Alchimiste	x	x									x						x
+Moine-combattant Chanka			x														x		x
+Paladin Blanc	x	x	x						x					x			x			x	x
+Paladin Noir	x		x								x			x	x
+Paladin Brun	x		x											x					x	x
+Paladin Rouge	x							x	x		x			x							x
+Paladin d'autre religion (custom)	x	x	x					x	x		x			x			x	x	x	x	x
+Prêtre Blanc	x	x	x														x
+Prêtre Noir	x		x								x				x
+Prêtre Brun	x		x																x
+Prêtre Rouge	x										x
+Prêtre d'autre religion (custom)	x	x	x								x						x	x	x
+Moine combattant Blanc	x		x														x
 Moine combattant Noir	x
-Moine combattant Brun	x
+Moine combattant Brun	x		x																x
 Moine combattant Rouge	x
-Moine combattant d'autre religion (custom)	x
-Inquisiteur Blanc	x
-Inquisiteur Noir	x
-Inquisiteur Brun	x
-Inquisiteur Rouge	x
-Inquisiteur d'autre religion (custom)	x
-Guerrier-mage	x
-Combattant des ombres
-Liche	x
-Chevalier de la Mort	x
-Fantassin démoniaque
-Mage démoniaque
-Déphaseur démoniaque
-Distorseur démoniaque
-Commandant démoniaque
-Fantassin céleste
-Mage céleste
-Commandant céleste
+Moine combattant d'autre religion (custom)	x		x														x		x
+Inquisiteur Blanc	x		x						x
+Inquisiteur Noir	x														x
+Inquisiteur Brun	x		x
+Inquisiteur Rouge	x							x	x		x
+Inquisiteur d'autre religion (custom)	x		x					x	x		x
+Guerrier-mage			x												x		x		x
+Combattant des ombres			x			x									x
+Liche	x	x	x								x				x
+Chevalier de la Mort	x		x					x	x						x		x
+Fantassin démoniaque																										x
+Mage démoniaque																										x
+Déphaseur démoniaque																										x
+Distorseur démoniaque																										x
+Commandant démoniaque																										x
+Fantassin céleste																									x
+Mage céleste																									x
+Commandant céleste																									x

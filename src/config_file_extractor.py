@@ -71,25 +71,25 @@ def interpret_matrix_file(filename):
     data = get_matrix_from_file(filename)
 
     type = data[0]
-    species = data[1]
+    column_labels = data[1]
     labelled_line = data[2]
 
     i = 0
     for ll in labelled_line:
         i += 1
-        print("[", int((i / len(labelled_line) * 100)), "%]", sep="")
-        class_name = ll[0]
+        line_label = ll[0]
+        print("[", int((i / len(labelled_line) * 100)), "%] ", line_label, sep="")
         line = ll[1]
         for j in range(len(line)):
             if type == "specie-class":
-                nc.link_specie_to_class(species[j], class_name)
+                nc.link_specie_to_class(column_labels[j], line_label)
             if type == "specie-generic_specie":
-                nc.link_specie_to_generic_specie(species[j], class_name)
+                nc.link_specie_to_generic_specie(column_labels[j], line_label)
             if type == "specie-specie_modif":
-                nc.link_specie_to_specie_modif(species[j], class_name)
+                nc.link_specie_to_specie_modif(column_labels[j], line_label)
             if type == "class_generic_class":
-                nc.link_class_to_generic_class(species[j], class_name)
+                nc.link_class_to_generic_class(column_labels[j], line_label)
             elif type == "specie-biome":
-                nc.link_specie_to_biome(species[j], class_name)
+                nc.link_specie_to_biome(column_labels[j], line_label)
             elif type == "class-biome":
-                nc.link_class_to_biome(species[j], class_name)
+                nc.link_class_to_biome(column_labels[j], line_label)
