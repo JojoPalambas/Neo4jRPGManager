@@ -20,11 +20,6 @@ def reset():
     session.run("MATCH (n) DETACH DELETE n")
 
 
-def get_all():
-    res = session.run("MATCH (n) RETURN n")
-    return res.values()
-
-
 def create_specie(name):
     res = session.run("CREATE (s:Specie {name: $name}) RETURN s", name=name)
     return res.single()
@@ -54,8 +49,12 @@ def create_biome(name):
     res = session.run("CREATE (b:Biome {name: $name}) RETURN b", name=name)
     return res.single()
 
+test = 0
 
 def link_specie_to_class(specie_name, class_name):
+    global test
+    test += 1
+    print(test)
     res = session.run("MATCH (s:Specie {name: $specie_name}), (c:Class {name: $class_name})"
                                "CREATE (s)-[r:CAN_BE]->(c) RETURN r", specie_name=specie_name, class_name=class_name)
 

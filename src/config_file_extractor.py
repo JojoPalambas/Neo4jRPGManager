@@ -1,4 +1,4 @@
-import neo4j_communicator as nc
+import neo4j_poster as np
 import time
 
 
@@ -41,30 +41,30 @@ def interpret_file(filename):
         print("[", int((i / len(instructions) * 100)), "%]", sep="")
         if instr[0] == "node":
             if instr[1] == "specie":
-                nc.create_specie(instr[2])
+                np.create_specie(instr[2])
             if instr[1] == "generic_specie":
-                nc.create_generic_specie(instr[2])
+                np.create_generic_specie(instr[2])
             if instr[1] == "specie_modif":
-                nc.create_specie_modif(instr[2])
+                np.create_specie_modif(instr[2])
             elif instr[1] == "class":
-                nc.create_class(instr[2])
+                np.create_class(instr[2])
             elif instr[1] == "generic_class":
-                nc.create_generic_class(instr[2])
+                np.create_generic_class(instr[2])
             elif instr[1] == "biome":
-                nc.create_biome(instr[2])
+                np.create_biome(instr[2])
         elif instr[0] == "link":
             if instr[1] == "specie-class":
-                nc.link_specie_to_class(instr[2], instr[3])
+                np.link_specie_to_class(instr[2], instr[3])
             if instr[1] == "specie-generic_specie":
-                nc.link_specie_to_generic_specie(instr[2], instr[3])
+                np.link_specie_to_generic_specie(instr[2], instr[3])
             if instr[1] == "specie-specie_modif":
-                nc.link_specie_to_specie_modif(instr[2], instr[3])
+                np.link_specie_to_specie_modif(instr[2], instr[3])
             if instr[1] == "class-generic_class":
-                nc.link_class_to_generic_class(instr[2], instr[3])
+                np.link_class_to_generic_class(instr[2], instr[3])
             if instr[1] == "specie-biome":
-                nc.link_specie_to_biome(instr[2], instr[3])
+                np.link_specie_to_biome(instr[2], instr[3])
             if instr[1] == "class-biome":
-                nc.link_class_to_biome(instr[2], instr[3])
+                np.link_class_to_biome(instr[2], instr[3])
 
 
 def interpret_matrix_file(filename):
@@ -81,15 +81,16 @@ def interpret_matrix_file(filename):
         print("[", int((i / len(labelled_line) * 100)), "%] ", line_label, sep="")
         line = ll[1]
         for j in range(len(line)):
-            if type == "specie-class":
-                nc.link_specie_to_class(column_labels[j], line_label)
-            if type == "specie-generic_specie":
-                nc.link_specie_to_generic_specie(column_labels[j], line_label)
-            if type == "specie-specie_modif":
-                nc.link_specie_to_specie_modif(column_labels[j], line_label)
-            if type == "class_generic_class":
-                nc.link_class_to_generic_class(column_labels[j], line_label)
-            elif type == "specie-biome":
-                nc.link_specie_to_biome(column_labels[j], line_label)
-            elif type == "class-biome":
-                nc.link_class_to_biome(column_labels[j], line_label)
+            if line[j] == "x":
+                if type == "specie-class":
+                    np.link_specie_to_class(column_labels[j], line_label)
+                if type == "specie-generic_specie":
+                    np.link_specie_to_generic_specie(column_labels[j], line_label)
+                if type == "specie-specie_modif":
+                    np.link_specie_to_specie_modif(column_labels[j], line_label)
+                if type == "class_generic_class":
+                    np.link_class_to_generic_class(column_labels[j], line_label)
+                elif type == "specie-biome":
+                    np.link_specie_to_biome(column_labels[j], line_label)
+                elif type == "class-biome":
+                    np.link_class_to_biome(column_labels[j], line_label)
