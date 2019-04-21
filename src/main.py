@@ -5,8 +5,7 @@ import time
 
 start = time.time()
 ng.open("bolt://localhost:7687", "neo4j", "azerty")
-for c in ng.get_classes_by_specie("Nain"):
-    print(c)
+print(len(ng.get_species_by_class("Fantassin")))
 ng.close()
 
 print("Program finished in ", time.time() - start, " seconds.", sep="")
