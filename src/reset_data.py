@@ -10,6 +10,7 @@ ng.open("bolt://localhost:7687", "neo4j", "azerty")
 np.reset()
 cfe.interpret_file("../data")
 cfe.interpret_matrix_file("../data_matrix_specie-class")
+cfe.interpret_matrix_file("../data_matrix_specie-specie_modif")
 np.close()
 ng.close()
 

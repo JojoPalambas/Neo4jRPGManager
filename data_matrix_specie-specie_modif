@@ -1,0 +1,8 @@
+specie-specie_modif
+	Humain	Nain	Elfe	Elfe-Nain	Hobbit	Pygmée	Géant	Orc	Demi-Orc	Gobelin	Ogre	Troll	Peau-de-pierre	Changelin	Vampire	Gnoll	Rakshasa	Naga	Kobold	Centaure	Minotaure	Harpie	Djinn	Effrit	Céleste	Démon	Tréant	Élémentaire	Automate
+Zombie et squelette	x	x	x	x	x	x	x	x	x	x	x	x	x			x	x	x	x	x	x	x
+Fantôme	x	x	x		x			x		x	x		x	x			x	x	x	x	x	x
+Divinité	x	x	x		x	x	x	x		x	x		x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x
+Damné	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x
+Bienheureux	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x
+Ombre	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	

@@ -66,7 +66,7 @@ def link_specie_to_class(specie_name, class_name):
 
 def link_specie_to_specie_modif(specie_name, specie_modif_name):
     res = session.run("MATCH (s:Specie {name: $specie_name}), (sm:SpecieModif {name: $specie_modif_name})"
-                               "CREATE (s)-[r:CAN_BECOME]->(c) RETURN r", specie_name=specie_name, specie_modif_name=specie_modif_name)
+                               "CREATE (s)-[r:CAN_BECOME]->(sm) RETURN r", specie_name=specie_name, specie_modif_name=specie_modif_name)
     session.sync()
 
 
