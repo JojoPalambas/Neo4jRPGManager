@@ -89,7 +89,7 @@ def interpret_matrix_file(filename):
                     np.link_specie_to_generic_specie(column_labels[j], line_label)
                 if type == "specie-specie_modif":
                     np.link_specie_to_specie_modif(column_labels[j], line_label)
-                if type == "class_generic_class":
+                if type == "class-generic_class":
                     np.link_class_to_generic_class(column_labels[j], line_label)
                 elif type == "specie-biome":
                     np.link_specie_to_biome(column_labels[j], line_label)

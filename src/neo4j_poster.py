@@ -77,8 +77,9 @@ def link_specie_to_generic_specie(specie_name, generic_specie_name):
 
 
 def link_class_to_generic_class(class_name, generic_class_name):
-    res = session.run("MATCH (c:Class {name: $class_name}), (gc:GenericClass {name: $generic_class_name})"
-                               "CREATE (c)-[r:IS_A_KIND_OF]->(gc) RETURN r", class_name=class_name, generic_class_name=generic_class_name)
+    print(class_name, generic_class_name)
+    res = session.run('MATCH (c:Class {name: $class_name}), (gc:GenericClass {name: $generic_class_name})'
+                      'CREATE (c)-[r:IS_A_KIND_OF]->(gc) RETURN r', class_name=class_name, generic_class_name=generic_class_name)
     session.sync()
 
 
